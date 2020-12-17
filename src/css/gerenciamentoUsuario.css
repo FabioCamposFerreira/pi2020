@@ -1,0 +1,43 @@
+img.userPhoto {
+  margin-top: -70px;
+}
+
+
+
+.userStatus {
+  font-size: 20px;
+  background-color: #00B4CC;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  text-align: center;
+}
+
+button.deleteBtn {
+  margin: -50px 25px 0 0;
+  height: 30px;
+  margin-left: auto;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  background-color: red;
+}
+
+button.deleteBtn:hover {
+  background-color:  rgb(245, 61, 61);
+}
+
+button.authorizeBtn {
+  margin: -50px 150px 0 0;
+  height: 30px;
+  margin-left: auto;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  background-color: green;
+}
+
+button.authorizeBtn:hover {
+  background-color:  rgb(55, 201, 55);
+}

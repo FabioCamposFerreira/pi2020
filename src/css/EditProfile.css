@@ -1,0 +1,61 @@
+div.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+div.profile form.profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-top: 5px;
+}
+
+div.profile form.profile-form input {
+  margin-top: 20px;
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+
+  border-radius: 10px;
+  border: solid 3px #00B4CC;
+  font-size: 17px;
+
+  outline: 0;
+}
+
+div.profile form.profile-form div.select-container div.select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+div.profile form.profile-form div.select-container div.select label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div.profile form.profile-form div.select-container div.select select {
+  font-size: 16px;
+  border: solid 3px #00B4CC;
+  outline: 0;
+}
+
+div.profile form.profile-form button {
+  width: 80%;
+  height: 50px;
+  margin-top: 30px;
+
+
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+
+  background-color: #00B4CC;
+  color: #fff;
+}

@@ -1,0 +1,63 @@
+* {box-sizing: border-box;}
+
+.body{
+    background-image: linear-gradient( #00B4CC,#00B4CC);
+    min-height: 100vh;
+    
+}
+.borda{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    min-width: 132px;
+    min-height: 144px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.espasamento{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.introducao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    min-width: 350px;
+    text-align: initial;
+}
+
+.botao {
+    margin: auto;
+    width: 150px;
+    display: block;
+    padding: 9px 15px;
+    margin-bottom: 15px;
+    background-color: #3898EC;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: #a6ace4;
+    height: 40px;
+    text-align: center;
+}
+
+.footerP{
+    position: absolute;
+    width: 100%;
+}
