@@ -22,8 +22,9 @@ Para executar este código  é necessário, antes de cloná-lo, instalar certas
 
 ### Prerequisites
 
-*Node (v8.10.0)
-*npm (3.5.2)
+* Node (v8.10.0)
+
+* npm (3.5.2)
 
 ### Installing
 
