@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SERVIDOR E CLIENTE IPTV
 
-## Available Scripts
+Construção de uma
+aplicação progressiva na web, instalável em qualquer dispositivo com navegador
+instalado que tenha suporte a aplicativos PWA, ou seja, celulares, desktops, entres
+outros. O aplicativo desenvolvido consegue realizar o login e cadastro de usuários,
+bem como, depois de cadastrados, mudar seus privilégios de administradores,
+podendo ou não gerenciar privilégios de outros usuários, ou permitir a inclusão de
+novos vídeos no armazenamento do site. Sendo funções acessíveis na barra de
+menus se os usuários tiverem estes privilégios. Depois de logado, o usuário é
+direcionado para uma tela onde já é apresentado opções de vídeos disponíveis para
+a visualização, como também a possibilidade de pesquisa de vídeos utilizando várias
+opções de filtragem. Na tela onde o vídeo é reproduzido, uma opção é apresentada
+para o usuário recomendar um vídeo presente em seu dispositivo para ser um
+complemento ao vídeo atualmente reproduzindo. Desta forma, o vídeo enviado, se
+aprovado pelo usuário com privilégios de gerenciamento de vídeos, será apresentado
+como uma sequência do vídeo anteriormente já presente no sistema do site.
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+Para executar este código  é necessário, antes de cloná-lo, instalar certas aplicações pela linha de comando. Sendo o Node.js e o gerenciador de arquivos npm.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+*Node (v8.10.0)
+*npm (3.5.2)
 
-### `yarn test`
+### Installing
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A instalação é um processo, sequencial de linhas de comandos, sendo o primeiro
 
-### `yarn build`
+* npm install -g create-react-app
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+que cria uma estrutura de pasta genérica de projeto React. Na pasta "create-react-app", segundo comando executado é 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* npm install --save react-router-dom
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+para adicionar uma biblioteca que permite a mudança entre telas. O terceiro e ultimo comando é 
 
-### `yarn eject`
+* npm install --save firebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+que adiciona a biblioteca Firebase ao projeto, permitindo a utilização deste banco de dados.
+Finalmente, deve-se baixar este o código e substituir os arquivos no projeto recém criado.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+O código pode ser testado usando, na pasta raiz, o comando
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* npm start
 
-## Learn More
+que irá executar o aplicativo em http://localhost:3000/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A compilação do código poderá ser realizada executando o comando
 
-### Code Splitting
+* npm run build
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+que irá armazenar os arquivos criados, totalmente no formato html, css e js, na pasta "build" na pasta raiz. Estes arquivos é que são utilizados no servidor online para o acesso pela internet do PWA.
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **FÁBIO CAMPOS FERREIRA**
+* **TIAGO MOREIRA CARNEIRO**
+* **JOSÉ DAVID VARGAS DE MELO NETO**
